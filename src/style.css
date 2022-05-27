@@ -1,16 +1,23 @@
 body {
-  margin: 0;
-  padding: 0;
+  border-style: none;
 }
 
-fieldset {
-  margin: 10px;
+div.form-field {
+  margin-bottom: 10px;
 }
 
-div {
-  margin: 20px;
+fieldset.info {
+  margin-bottom: 20px;
 }
 
-button {
-  margin: 10px;
+fieldset.password-and-Email {
+  margin-bottom: 20px;
+}
+
+fieldset.aboutYou {
+  margin-bottom: 20px;
+}
+
+fieldset.addInfo {
+  margin-bottom: 20px;
 }
