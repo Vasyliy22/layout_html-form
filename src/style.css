@@ -6,18 +6,18 @@ div.form-field {
   margin-bottom: 10px;
 }
 
-fieldset.info {
+.info {
   margin-bottom: 20px;
 }
 
-fieldset.password-and-Email {
+.password-and-Email {
   margin-bottom: 20px;
 }
 
-fieldset.aboutYou {
+.aboutYou {
   margin-bottom: 20px;
 }
 
-fieldset.addInfo {
+.addInfo {
   margin-bottom: 20px;
 }
