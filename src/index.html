@@ -9,7 +9,12 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="get">
+    <form 
+      action="https://mate-academy-
+      form-lesson.herokuapp.com/create-
+      application" 
+        method="get"
+      >
 
       <fieldset class="info">
         <legend>Personal information</legend> 
@@ -37,7 +42,8 @@
             type="number"
             name="old"
             value="12"
-            min="1" max="100"
+            min="1" 
+            max="100"
           >
         </div>
         <div class="form-field">
@@ -91,7 +97,7 @@
             <input
               autocomplete="off" 
               type="radio" 
-              name="choose"
+              name="loveCats"
             > 
             Yes
           </label>
@@ -100,7 +106,7 @@
             <input 
               autocomplete="off"
               type="radio" 
-              name="choose"
+              name="loveCats"
             >
             No
           </label>
@@ -125,13 +131,17 @@
 
         <div class="form-field">
           What are your favorite brands of cars?
-          <textarea
+          <select
             autocomplete="off" 
             name="cars" 
             id="cars" 
             cols="4" 
             rows="3"
-          >Audi Bwm lada</textarea>
+          >
+            <option value="bmw">Bwm</option>
+            <option value="audi">Audi</option>
+            <option value="lada">Lada</option>
+          </select>
 
 
         </div>
@@ -164,8 +174,8 @@
         <div class="form-field">
           Would you recommend us?
           <select name="recomend" autocomplete="off">
-            <option>Yes</option>
-            <option>No</option>
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
           </select>
         </div>
       </fieldset>
